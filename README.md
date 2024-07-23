@@ -11,8 +11,6 @@ This project demonstrates the use of Depth-First Search (DFS) and Breadth-First 
 **Nodes Visited:**
 A B E H I J G D F C
 
-markdown
-Копировать код
 
 **DFS Path Dictionary:**
 {
@@ -28,16 +26,12 @@ markdown
 'G': 'J'
 }
 
-markdown
-Копировать код
 
 ### BFS Results
 
 **Nodes Visited:**
 A C B F D E I G H J
 
-markdown
-Копировать код
 
 **BFS Path Dictionary:**
 {
@@ -53,22 +47,16 @@ markdown
 'J': 'G'
 }
 
-css
-Копировать код
 
 ### Path from A to I
 
 **DFS Path:**
 I H E B A
 
-markdown
-Копировать код
 
 **BFS Path:**
 I F C A
 
-vbnet
-Копировать код
 
 ## Explanation of Results
 
