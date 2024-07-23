@@ -6,24 +6,24 @@ G = nx.Graph()
 
 # Додавання вершин (станцій/зупинок)
 stations = [
-    "Station A", "Station B", "Station C", "Station D", "Station E",
-    "Station F", "Station G", "Station H", "Station I", "Station J"
+    "A", "B", "C", "D", "E",
+    "F", "G", "H", "I", "J"
 ]
 G.add_nodes_from(stations)
 
 # Додавання рёбер (маршрутів) з атрибутами (відстань, час у дорозі)
 routes = [
-    ("Station A", "Station B", {"distance": 5, "time": 10}),
-    ("Station A", "Station C", {"distance": 7, "time": 15}),
-    ("Station B", "Station D", {"distance": 3, "time": 7}),
-    ("Station B", "Station E", {"distance": 4, "time": 8}),
-    ("Station C", "Station F", {"distance": 6, "time": 12}),
-    ("Station D", "Station G", {"distance": 5, "time": 10}),
-    ("Station E", "Station H", {"distance": 2, "time": 5}),
-    ("Station F", "Station I", {"distance": 8, "time": 16}),
-    ("Station G", "Station J", {"distance": 4, "time": 9}),
-    ("Station H", "Station I", {"distance": 3, "time": 7}),
-    ("Station I", "Station J", {"distance": 6, "time": 13}),
+    ("A", "B", {"distance": 5, "time": 10}),
+    ("A", "C", {"distance": 7, "time": 15}),
+    ("B", "D", {"distance": 3, "time": 7}),
+    ("B", "E", {"distance": 4, "time": 8}),
+    ("C", "F", {"distance": 6, "time": 12}),
+    ("D", "G", {"distance": 5, "time": 10}),
+    ("E", "H", {"distance": 2, "time": 5}),
+    ("F", "I", {"distance": 8, "time": 16}),
+    ("G", "J", {"distance": 4, "time": 9}),
+    ("H", "I", {"distance": 3, "time": 7}),
+    ("I", "J", {"distance": 6, "time": 13}),
 ]
 
 G.add_edges_from(routes)
